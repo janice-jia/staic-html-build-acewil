@@ -1,0 +1,70 @@
+{
+  "name": "static-html-builder",
+  "version": "3.1.4",
+  "homepage": "https://github.com/gengen1988/static-html-builder",
+  "authors": [
+    "Gen Liu <gerald_721@hotmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    
+    "bootstrap": "#3.3.4",
+    
+    "angular-ui-router": "#0.3.2",
+    
+    "jquery-ui": "#1.11.1",
+    
+    "angular-bootstrap": "#0.14.3",
+    
+    "angular-strap": "#2.3.8",
+    
+    "angular-tree-control": "#0.2.25",
+    
+    "angularjs-toaster": "#2.0.0",
+    
+    "angular-indexedDB": "*",
+    
+    "angular-ui-grid": "#3.1.1",
+    
+    "angular-material": "#1.1.9",
+    
+    "jszip": "#2.5.0",
+    
+    "file-saver.js": "#1.20150507.2",
+    
+    "js-xlsx": "#0.8.0",
+    
+    "jquery": "#2.2.4",
+    
+    "angular-file-upload": "#2.5.0",
+    
+    "less": "^2.0.0",
+    "angular": "^1.3.0",
+    "html5shiv": "*",
+    "es5-shim": "*",
+    "respond": "*",
+    "console-polyfill": "*",
+    "jqGrid": "#5.3.2",
+    "ocLazyLoad":"*"
+  },
+  "resolutions": {
+    "bootstrap": "3.3.4"
+  },
+  "overrides": {
+    
+    "marked": {
+      "main": "lib/marked.js"
+    },
+    
+    "jqGrid":{
+        "main":["js/i18n/grid.locale-cn.js"]
+    }
+  }
+}
